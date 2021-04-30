@@ -14,10 +14,10 @@ is_deterministic False
 Cumulated reward: 29372.07848095808
 Loss - {'ramping': 0.5214355971679232, '1-load_factor': 0.8835006470329726, 'average_daily_peak': 0.41111142599127914, 'peak_demand': 0.6254566938449444, 'net_electricity_consumption': 0.9315115945800204, 'voltage_dev': 0.9352200392527855, 'quadratic': 0.5545695934930607, 'total': 0.6946865130518551} Simulation time (min) - 612.3117070754369
 is_deterministic False
- 
+
 Cumulated reward: 29354.64964021212
 Loss - {'ramping': 0.5200931850353807, '1-load_factor': 0.8884456888248267, 'average_daily_peak': 0.4131721924541452, 'peak_demand': 0.6042355541864165, 'net_electricity_consumption': 0.9305212446570753, 'voltage_dev': 0.9350142638789227, 'quadratic': 0.5543218554788868, 'total': 0.6922577120736648} Simulation time (min) - 796.6540624260903
-is_deterministic True
 
+is_deterministic True
 Cumulated reward: 29368.156171217957
 Loss - {'ramping': 0.521758508743188, '1-load_factor': 0.8913428484783946, 'average_daily_peak': 0.4145451860794176, 'peak_demand': 0.6163865681602596, 'net_electricity_consumption': 0.9320947263202072, 'voltage_dev': 0.9355586528077902, 'quadratic': 0.5550338342623548, 'total': 0.6952457606930874} Simulation time (min) - 1093.326940580209
