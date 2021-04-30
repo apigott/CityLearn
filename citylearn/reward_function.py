@@ -27,6 +27,8 @@ class reward_function_ma:
     #
     #     return list(np.sign(electricity_demand)*0.01*(np.array(np.abs(electricity_demand))**2 * max(0, total_electricity_demand)))
     def get_rewards(self, voltage_dev, sys_losses):
+        # voltage_dev is shared across houses
+        # @akp, give each of the houses a different voltage score 
         return np.sum(voltage_dev) * np.ones(self.n_agents)
 
 # Reward function for the single-agent (centralized) agent
